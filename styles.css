@@ -1,8 +1,20 @@
 body {
-  background: radial-gradient(red, purple, brown);
-  color: #996633;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: Helvetica, Arial, sans-serif;
 }
+
+#site_header{
+  background: orange;
+}
+
+#logo{
+  margin-bottom: 100px;
+}
+
+.main_navigation a{
+  text-decoration: none;
+  color: white;
+}
+
 td {
   background-image: url(https://m.popkey.co/b68ad6/87g6e.gif);
 }
