@@ -1,5 +1,7 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
+  margin: 5%;
+  background: grey;
 }
 
 #site_header{
@@ -15,28 +17,11 @@ body {
   color: white;
 }
 
-td {
-  background-image: url(https://m.popkey.co/b68ad6/87g6e.gif);
+#page_content{
+  margin: 0 auto;
+  background: white;
 }
 
-body > div {
-  width: 80%;
-}
-* {
-  box-shadow: 10px 10px 10px #888888;
-  text-shadow: 10px 10px 10px #a3c00f;
-}
-.uglyImageOne {
-  width: 120%;
-  height: 30%;
-}
-
-img {
-  transition: all 0.3s ease-in-out 0s;
-}
-
-img:hover {
-  cursor: default;
-  transform: rotate(360deg);
-  transition: all 0.3s ease-in-out 0s;
+section{
+  border-bottom: 3px solid gray;
 }
