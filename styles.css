@@ -1,30 +1,27 @@
 body {
-  background: radial-gradient(red, purple, brown);
-  color: #996633;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
-}
-td {
-  background-image: url(https://m.popkey.co/b68ad6/87g6e.gif);
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 5%;
+  background: grey;
 }
 
-body > div {
-  width: 80%;
-}
-* {
-  box-shadow: 10px 10px 10px #888888;
-  text-shadow: 10px 10px 10px #a3c00f;
-}
-.uglyImageOne {
-  width: 120%;
-  height: 30%;
+#site_header{
+  background: orange;
 }
 
-img {
-  transition: all 0.3s ease-in-out 0s;
+#logo{
+  margin-bottom: 100px;
 }
 
-img:hover {
-  cursor: default;
-  transform: rotate(360deg);
-  transition: all 0.3s ease-in-out 0s;
+.main_navigation a{
+  text-decoration: none;
+  color: white;
+}
+
+#page_content{
+  margin: 0 auto;
+  background: white;
+}
+
+section{
+  border-bottom: 3px solid gray;
 }
